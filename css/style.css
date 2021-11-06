@@ -1,0 +1,444 @@
+:root {
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1120px;
+    min-width: 991px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #3098F3;
+    border-radius: 0px;
+}
+
+
+
+.logo img {
+    padding-top: 56px;
+   
+}
+
+
+.menu-list {
+    padding-bottom: 212px;
+    margin-top: -22px;
+    display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    list-style: none;
+}
+
+.menu-list a {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 32px;
+    text-decoration: none;
+}
+
+
+.desigion {
+    padding-bottom: 3px;
+    max-width: 583px;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+}
+
+.together {
+    padding-bottom: 102px;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #FFCC00;
+
+}
+
+.group {
+    padding-bottom: 18px;
+    margin-left: 579px;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us p {
+    padding-top: 243px;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    color: #05051E;
+    max-width: 470px;
+}
+
+.about-us img {
+    padding-bottom: 187px;
+    padding-top: 160px;
+}
+
+.foto {
+    width: 50%;
+}
+
+.fon {
+    height: 420px;
+    width: 50%;
+    background: #F2EAE2;
+    border-radius: 0px;
+}
+
+.study {
+    display: flex;
+    
+}
+
+.partners {
+    margin-top: 80px;
+    display: flex; 
+    flex-direction: row-reverse;
+}
+.columbia-university-container {
+    width: 480px;
+    height: 330px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.columbia-university-text {
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+    color: #3098F3;
+}
+
+
+
+.text-link {
+    max-width: 433px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #05051E;
+}
+
+.wiev {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #05051E;
+}
+
+.wiev svg {
+    margin-bottom: -5px;
+}
+
+.wiev:hover path {
+    fill: black;
+}
+
+.wiev path:hover + .qwe {
+    fill: black;
+}
+
+.btn-stedents {
+    margin-top: 56px;
+    text-transform: capitalize;
+    padding-right: 27px;
+    padding-left: 27px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #3098F3;
+    border-radius: 100px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+
+.center {
+    padding-bottom: 61px;
+    text-align: center;
+}
+
+.yellow {
+    padding-bottom: 229px;
+    background: #FFCC00;
+    border-radius: 0px;
+}
+.wiev-2 svg {
+    margin-bottom: -5px;
+}
+
+.desigion p {
+    max-width: 472px;
+}
+
+.problems {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.desigion h2 {
+    padding-top: 219px;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #05051E;
+}
+
+.desigion h3 {
+    padding-bottom: 39px;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #05051E;
+}
+
+.desigion p {
+    padding-bottom: 45px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #05051E;
+    }
+
+.desigion a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #05051E;
+
+
+}
+.desigion img {
+    margin-bottom: -5px;
+}
+
+.design-spirit-image img {
+    padding-top: 220px;
+}
+
+
+.about-human h2 {
+    padding-bottom: 18px;
+    font-weight: normal;
+    padding-top: 157px;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #05051E;
+}
+
+.about-human p {
+    padding-bottom: 55px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #05051E;
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -32px;
+}
+
+.about-human-fon {
+    margin: 0 32px;
+    height: 455px;
+    padding-left: 40px;
+    width: 33.333%;
+    background: #3098F3;
+    border-radius: 0px;
+}
+.team p {
+    padding-bottom: 84px;
+    padding-top: 21px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+    max-width: 267px;
+}
+
+.team img {
+    margin-top: 40px;
+}
+
+.team a {
+    padding-bottom: 40px;
+    padding-left: 254px;
+}
+
+.btn {
+    padding-bottom: 66px;
+    padding-top: 31px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    background: #082C4E;
+    border-radius: 0px;
+}
+.building h2 {
+    padding-bottom: 35px;
+    padding-top: 137px;
+    max-width: 564px;
+    font-weight: normal;
+    font-size: 51px;
+    line-height: 67px;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+}
+
+.building button {
+    padding: 15px 32px 15px 32px;
+    background: #FFCC00;
+    border-radius: 100px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #082C4E;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-content {
+    display: flex;
+}
+
+.menu-footer {
+    padding-left: 248px;
+    display: flex;
+    
+    
+
+    
+}
+
+.footer-img {
+    padding-bottom: 52px;
+}
+
+.list-ul li {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+
+.list-ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-ul li:last-child {
+    padding-bottom: 104px;
+    padding-top: 47px;
+}
+
+.ul-menu-footer {
+    padding: 0;
+    list-style: none;
+}
+
+.ul-menu-footer li {
+    padding-right: 120px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 34px;
+    color: #FFFFFF;
+
+}
+
+.link-footer {
+    padding-top: 67px;
+    padding-left: 248px;
+}
+
+
+.link-footer p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.p2 p {
+    padding-top: 14px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 34px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+    
+.p2 {
+    border-bottom: 1px solid white;
+}
+
+.social a {
+   margin-bottom: 17px;
+    
+
+}
+
+.social {
+    padding-top: 95px;
+    padding-left: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+   
+}
+
